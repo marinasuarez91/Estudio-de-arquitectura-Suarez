@@ -1,0 +1,33 @@
+.footer--frame {
+    width: 100vw;
+    background-color: $color1;
+    color: $color2;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer--text {
+    color: $color2;
+    font-family: $font2;
+    font-size: 10px;
+    font-style: normal;
+    margin: left;
+    padding-left: 10px;
+}
+  
+.footer--icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-around;
+    margin: right;
+    padding-right: 10px;
+    min-width: 200px;
+    color: $color2;
+  }

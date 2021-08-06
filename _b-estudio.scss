@@ -1,0 +1,137 @@
+@media (min-width: 992px) {
+    .mainAside--container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img--container {
+        width: 72vw;
+        height: 998px;
+    }
+      
+    .estudio__img {
+        margin: 0px;
+        transition: opacity 1s;
+        max-width: 72vw;
+        height: 998px;
+        object-fit: cover;
+        z-index: 1;
+    }
+      
+    .estudio__img:hover {
+        opacity: 0.5;
+    }
+
+    h3 {
+        margin: 0px;
+        text-align: center;
+        color: $color4;
+        font-family: $font2;
+        font-size: 18px;
+        font-style: normal;
+        padding: 10px;
+        overflow: hidden;
+    }
+      
+    .estudio__text {
+        margin: 0px;
+        text-align: center;
+        background-color: $color2;
+        color: $color4;
+        font-family: $font2;
+        font-size: 16px;
+        font-style: normal;
+        padding: 150px 10px 150px 10px;
+        overflow: hidden;
+        max-width: 28vw;
+    }
+
+    .article--container {
+        display: none;
+    }
+
+    .servicios--link {
+        text-decoration: none;
+        color: $color1;
+    }
+
+    .servicios--hover:hover {
+        color: $color1;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .mainAside--container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img--container {
+        width: 100vw;
+    }
+      
+    .estudio__img {
+        margin: 0px;
+        transition: opacity 1s;
+        width: 100vw;
+        object-fit: cover;
+        z-index: 1;
+    }
+      
+    .estudio__img:hover {
+        opacity: 0.5;
+    }
+      
+    .estudio__text {
+        margin: 0px;
+        text-align: center;
+        background-color: $color2;
+        color: $color4;
+        font-family: $font2;
+        font-size: 14px;
+        font-style: normal;
+        padding: 10px 10px 1px 10px;
+        overflow: hidden;
+    }
+
+    h3 {
+        margin: 0px;
+        text-align: center;
+        color: $color1;
+        font-family: $font2;
+        font-size: 16px;
+        font-style: normal;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .article--container {
+        width: 100vw;
+        max-height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .article__img {
+        min-width: 120px;
+        object-fit: cover;
+    }
+
+    .article__img:hover {
+        opacity: 0.5;
+    }
+
+    .servicios--link {
+        text-decoration: none;
+        color: $color1;
+    }
+
+    .servicios--hover:hover {
+        color: $color1;
+        font-weight: 700;
+    }
+}

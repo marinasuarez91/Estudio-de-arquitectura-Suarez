@@ -1,0 +1,33 @@
+@media (min-width: 992px) {
+
+.carousel__img {
+    max-width: 100vw;
+    height: 998px;
+    object-fit: cover;
+}
+
+.main__frame--mobile {
+    display: none;
+}
+
+}
+
+
+@media (max-width: 992px) {
+    .main__frame {
+        display: none;
+    }
+
+    .main__frame--mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel__img--mobile {
+        max-width: 100vw;
+        height: 300px;
+        object-fit: cover;
+        padding: 10px;
+    }
+
+}

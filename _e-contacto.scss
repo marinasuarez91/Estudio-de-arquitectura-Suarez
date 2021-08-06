@@ -1,0 +1,287 @@
+@media (min-width: 992px) {
+
+    .contact--style {
+        height: 998px;
+        width: 100vw;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .main--location {
+        height: 998px;
+        width: 60vw;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons--contact {
+        display: flex;
+        flex-direction: row;
+        color: $color1;
+        width: 30vw;
+    }
+
+    .icons--contact p {
+        padding-left: 15px;
+    }
+
+    .contact__text {
+        background-color: $color3;
+        color: $color1;
+        height: 398px;
+        width: 60vw;
+        margin: 0px;
+        font-family: $font2;
+        font-size: 16px;
+        font-style: normal;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 20px;
+    }
+    
+    .location--size {
+        height: 600px;
+        width: 60vw;
+        margin: 0px;
+    }
+    
+    .form--size {
+        height: 998px;
+        width: 40vw;
+        margin: 0px;
+        text-align: center;
+        background-color: $color2;
+        color: $color1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .form__imput--style {
+        width: 35vw;
+        height: 5vh;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: 16px;
+        font-style: normal;
+        margin-top: 12px;
+    }
+    
+    .form__txtarea--style {
+        width: 35vw;
+        height: 15vh;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: 16px;
+        font-style: normal;
+        margin-top: 12px;
+        resize: none;
+    }
+    
+    .form__imput--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__txtarea--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__imputcb--style {
+        width: 35vw;
+        height: 5vh;
+        text-align: center;
+        font-family: $font2;
+        font-size: 20px;
+        font-style: normal;
+        margin-top: 20px;
+        padding-left: 80px;
+    }
+    
+    .button__submit {
+        width: 35vw;
+        height: 5vh;
+        background-color: $color1;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: 20px;
+        font-style: normal;
+    }
+    
+    .button__submit:hover {
+        transform: scale(1.02,1.02);
+    }
+    
+    .button__reset {
+        width: 35vw;
+        height: 5vh;
+        background-color: $color4;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: 20px;
+        font-style: normal;
+        margin-top: 12px;
+    }
+    
+    .button__reset:hover {
+        transform: scale(1.02,1.02);
+    }
+}
+
+@media (max-width: 992px) {
+    .contact--style {
+        width: 100vw;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main--location {
+        height: 400px;
+        width: 100vw;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons--contact {
+        display: flex;
+        flex-direction: row;
+        color: $color1;
+    }
+
+    .icons--contact p {
+        padding-left: 10px;
+    }
+
+    .contact__text {
+        background-color: $color3;
+        color: $color1;
+        height: 200px;
+        width: 100vw;
+        margin: 0px;
+        font-family: $font2;
+        font-size: 14px;
+        font-style: normal;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 20px;
+    }
+    
+    h3 {
+        margin: 0px;
+        text-align: center;
+        color: $color1;
+        font-family: $font2;
+        font-size: 18px;
+        font-style: normal;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .location--size {
+        height: 200px;
+        width: 100vw;
+        margin: 0px;
+    }
+    
+    .form--size {
+        height: 400px;
+        width: 100vw;
+        margin: 0px;
+        text-align: center;
+        background-color: $color2;
+        color: $color1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .form__imput--style {
+        width: 85vw;
+        height: 3vh;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: 14px;
+        font-style: normal;
+        margin-top: 12px;
+    }
+    
+    .form__txtarea--style {
+        width: 85vw;
+        height: 10vh;
+        border: 3px solid $color1;
+        text-align: left;
+        font-family: $font2;
+        font-size: 14px;
+        font-style: normal;
+        margin-top: 12px;
+        resize: none;
+    }
+    
+    .form__imput--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__txtarea--style:focus {
+        background: $color3;
+        color: $color1;
+    }
+    
+    .form__imputcb--style {
+        width: 85vw;
+        height: 3vh;
+        text-align: center;
+        font-family: $font2;
+        font-size: 16px;
+        font-style: normal;
+        margin-top: 18px;
+        padding-left: 80px;
+    }
+    
+    .button__submit {
+        width: 85vw;
+        height: 3vh;
+        background-color: $color1;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: 16px;
+        font-style: normal;
+    }
+    
+    .button__submit:hover {
+        transform: scale(1.02,1.02);
+    }
+    
+    .button__reset {
+        width: 85vw;
+        height: 3vh;
+        background-color: $color4;
+        color: $color2;
+        text-align: center;
+        font-family: $font2;
+        font-size: 16px;
+        font-style: normal;
+        margin-top: 12px;
+    }
+    
+    .button__reset:hover {
+        transform: scale(1.02,1.02);
+    }
+}
